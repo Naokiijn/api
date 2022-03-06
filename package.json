@@ -1,0 +1,19 @@
+{
+  "name": "api-consulta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.1",
+    "express": "^4.17.1",
+    "express-ip": "^1.0.4",
+    "remove-accents": "^0.4.2",
+    "telegram": "^2.0.14"
+  }
+}
