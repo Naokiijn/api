@@ -4,7 +4,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello World!!!")
+    fs.writeFileSync('./teste.json', JSON.stringify({ data: "KKKKKKKK" }, null, '\t'))
+    res.json({ data: "Hello World!!!", errors: {} })
 })
 
 app.listen(port, () => {
